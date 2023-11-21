@@ -1,0 +1,9 @@
+export {default as Learn} from "./Learn";
+export {default as ErrorPage} from "./ErrorPage";
+export {default as DashBoard} from "./DashBoard";
+export {default as Ecozones} from "./Ecozones";
+export {default as LeaderBoard} from "./LeaderBoard";
+export {default as Rewards} from "./Rewards";
+export {default as Settings} from "./Settings";
+export {default as HomePage} from "./HomePage";
+export {default as LoginPage} from "./LoginPage";
