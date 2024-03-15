@@ -4,9 +4,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border-radius: 3rem;
-  margin-top: 1rem;
-  flex-direction: row;
+
   
 }
 .menu-bars {
@@ -49,13 +47,7 @@
   padding: 0px 16px;
   border-radius: 4px;
 }
-.nav-text a:hover {
-  background-color: #1a83ff;
-}
-.nav-menu-items {
-  /* background-color: green; */
-  width: 100%;
-}
+
 .navbar-toggle {
   background-color: #060b26;
   width: 100%;
@@ -64,6 +56,4 @@
   justify-content: flex-start;
   align-items: center;
 }
-span {
-  margin-left: 16px;
-}
+
