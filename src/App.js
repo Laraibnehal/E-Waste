@@ -11,7 +11,7 @@ const App = () => {
     <div className='bg-black '>
     <Navbar/>
  {/* <LoginPage/> */}
- {/* <LeaderBoard/> */}
+ <LeaderBoard/>
     <Routes>
         {routes.map((route, index) => (
           <Route {...route} key={index} />
