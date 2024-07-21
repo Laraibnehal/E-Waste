@@ -1,6 +1,6 @@
 import React from "react";
 import earth from "../assests/earth.jpg";
-import fidget from "../assests/fidget.jpg";
+// import fidget from "../assests/fidget.jpg";
 import leaf from "../assests/leaf.jpg";
 import trash from "../assests/trash.jpg";
 import mountain from "../assests/mountain.jpg";
@@ -32,7 +32,7 @@ function HomePage() {
         <section
           className="w-full  bg-center bg-cover bg-no-repeat bg-fixed h-96 rotate-180 rounded-3xl relative"
           style={{
-            backgroundImage: `url(${fidget})`,
+            // backgroundImage: `url(${fidget})`,
           }}
         ></section>
         <div className="text-white flex flex-col mt-9 tracking-thighter leading-7 absolute ml-5">

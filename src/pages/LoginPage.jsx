@@ -1,9 +1,9 @@
 import { useState } from "react";
 import clouds from "../assests/clouds.jpg";
 // import FontAwesomeIcon from "font-awesome"
-
 const LoginPage = () =>{
-
+  const [username, setUsername] = useState([]);
+const [password, setPassword] = useState([]);
 
   const handleLogin = () => {
     // Add your login logic here
@@ -33,7 +33,7 @@ const LoginPage = () =>{
             id="username"
             className="w-full p-2 border rounded-md"
             placeholder="Enter your Email Address"
-            value={username}
+            // value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
         </div>
@@ -46,7 +46,7 @@ const LoginPage = () =>{
             id="password"
             className="w-full p-2 border rounded-md"
             placeholder="Enter your password"
-            value={password}
+            // value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
@@ -67,6 +67,6 @@ const LoginPage = () =>{
     </div>
   );
 }
-
+export default LoginPage
 
 

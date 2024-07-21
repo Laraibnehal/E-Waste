@@ -108,4 +108,4 @@ LearderBoard
 
 
 
-export default LeaderBoard
+export default LeaderBoard;

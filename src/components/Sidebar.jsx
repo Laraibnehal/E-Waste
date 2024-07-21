@@ -23,7 +23,7 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "LeaderBoards",
+    title: "LeaderBoard",
     path: "/leader-board",
     icon: <IoIcons.IoMdPeople />,
     cName: "nav-text",

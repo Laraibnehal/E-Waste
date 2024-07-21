@@ -6,7 +6,7 @@ import computers from "../assests/computers.jpg"
 import letters from "../assests/Letters.jpg"
 import smile from "../assests/simle.jpg"
 import mobiles from "../assests/mobiles.jpg"
-import two from "../assests/-2.jpg"
+// import two from "../assests/-2.jpg"
 function Learn() {
   return (
     <div className='bg-slate-800 h-full rounded-2xl ml-5 mr-5 '>
@@ -25,9 +25,9 @@ Learn
                read={"Read"}
                image={letters} 
                description={"How to navigate in the modern world & manage e-waste "} />
-              <Card read={"Read"}
+              {/* <Card read={"Read"}
                image={two} 
-               description={"How to recycle your old TV and make a quick buck. "} />
+               description={"How to recycle your old TV and make a quick buck. "} /> */}
               <Card read={"Read"}
                image={computers} 
                description={"Did you know old computers are a pressing issue..."} />

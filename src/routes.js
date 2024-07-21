@@ -1,4 +1,4 @@
-import { HomePage, Learn,  ErrorPage, Rewards, Settings,LeaderBoard, DashBoard, Ecozones,LoginPage} from "./pages";
+import { HomePage, Learn,  ErrorPage, Rewards,LeaderBoard, Settings, DashBoard, Ecozones,LoginPage} from "./pages";
 import { Navbar } from "./components";
 
 const routes = [
@@ -28,7 +28,7 @@ const routes = [
   },
   {
     key: "5",
-    path: "leader-boards",
+    path: "leader-board",
     element: <LeaderBoard />,
     errorElement: <ErrorPage/>
   },

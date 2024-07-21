@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import { Routes, Route, Await } from "react-router-dom";
-import LeaderBoard from './pages/LeaderBoard';
+// import LeaderBoard from './pages/LeaderBoard';
 // Internal Imports
 import routes from "./routes";
 import Axios from 'axios'
@@ -11,7 +11,7 @@ const App = () => {
     <div className='bg-black '>
     <Navbar/>
  {/* <LoginPage/> */}
- <LeaderBoard/>
+ {/* <LeaderBoard/> */}
     <Routes>
         {routes.map((route, index) => (
           <Route {...route} key={index} />

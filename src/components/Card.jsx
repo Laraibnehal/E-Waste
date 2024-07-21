@@ -5,7 +5,7 @@ import computers from "../assests/computers.jpg"
 import letters from "../assests/Letters.jpg"
 import smile from "../assests/simle.jpg"
 import mobiles from "../assests/mobiles.jpg"
-import two from "../assests/-2.jpg"
+// import two from "../assests/-2.jpg"
 
 const Card = ({ image, read, description }) => {
         return (
